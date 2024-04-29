@@ -1,0 +1,36 @@
+body {
+    background-image: url('images/big\ bang\ quiz.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+}
+
+.quiz-container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.form-check {
+    font-size: 1.2rem;
+}
+
+input:hover, label:hover {
+    cursor: pointer;
+}
+
+.form-check:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

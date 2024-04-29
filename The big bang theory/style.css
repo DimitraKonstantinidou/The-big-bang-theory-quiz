@@ -1,0 +1,50 @@
+body {
+    background-image: url('images/the-big-bang-theory.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+li {
+    font-weight: bold;
+}
+
+.dropdown-toggle{
+    font-weight: bold !important;
+}
+
+.nav-pills .nav-item:hover .nav-link {
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    background-color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #FFFFFF80 !important; 
+    border: none ;
+    min-width: auto !important;
+    width: auto !important;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    padding-right: 2rem;
+}
+
+.offcanvas-end {
+    width:auto !important;
+    min-width: auto !important;
+    
+}
+
+
+
